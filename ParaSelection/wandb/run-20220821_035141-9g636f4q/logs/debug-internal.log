@@ -1,0 +1,92 @@
+2022-08-21 03:51:42,911 INFO    MainThread:415862 [internal.py:wandb_internal():89] W&B internal server running at pid: 415862, started at: 2022-08-21 03:51:42.910539
+2022-08-21 03:51:42,912 INFO    WriterThread:415862 [datastore.py:open_for_write():77] open: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/run-9g636f4q.wandb
+2022-08-21 03:51:42,913 DEBUG   HandlerThread:415862 [handler.py:handle_request():126] handle_request: check_version
+2022-08-21 03:51:42,916 DEBUG   SenderThread:415862 [sender.py:send():185] send: header
+2022-08-21 03:51:42,916 DEBUG   SenderThread:415862 [sender.py:send_request():199] send_request: check_version
+2022-08-21 03:51:43,999 DEBUG   SenderThread:415862 [sender.py:send():185] send: run
+2022-08-21 03:51:44,003 DEBUG   SenderThread:415862 [git.py:repo():33] git repository is invalid
+2022-08-21 03:51:45,021 INFO    SenderThread:415862 [dir_watcher.py:__init__():169] watching files in: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files
+2022-08-21 03:51:45,021 INFO    SenderThread:415862 [sender.py:_start_run_threads():749] run started: 9g636f4q with start time 1661053901
+2022-08-21 03:51:45,022 DEBUG   SenderThread:415862 [sender.py:send():185] send: summary
+2022-08-21 03:51:45,022 DEBUG   HandlerThread:415862 [handler.py:handle_request():126] handle_request: run_start
+2022-08-21 03:51:45,024 INFO    SenderThread:415862 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-08-21 03:51:45,028 DEBUG   HandlerThread:415862 [meta.py:__init__():40] meta init
+2022-08-21 03:51:45,029 DEBUG   HandlerThread:415862 [meta.py:__init__():54] meta init done
+2022-08-21 03:51:45,029 DEBUG   HandlerThread:415862 [meta.py:probe():211] probe
+2022-08-21 03:51:45,035 DEBUG   HandlerThread:415862 [git.py:repo():33] git repository is invalid
+2022-08-21 03:51:45,035 DEBUG   HandlerThread:415862 [meta.py:_save_pip():58] save pip
+2022-08-21 03:51:45,037 DEBUG   HandlerThread:415862 [meta.py:_save_pip():72] save pip done
+2022-08-21 03:51:45,037 DEBUG   HandlerThread:415862 [meta.py:_save_conda():79] save conda
+2022-08-21 03:51:45,773 DEBUG   HandlerThread:415862 [meta.py:_save_conda():87] save conda done
+2022-08-21 03:51:45,774 DEBUG   HandlerThread:415862 [meta.py:probe():249] probe done
+2022-08-21 03:51:45,876 DEBUG   SenderThread:415862 [sender.py:send():185] send: files
+2022-08-21 03:51:45,876 INFO    SenderThread:415862 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2022-08-21 03:51:45,883 DEBUG   HandlerThread:415862 [handler.py:handle_request():126] handle_request: stop_status
+2022-08-21 03:51:45,883 DEBUG   SenderThread:415862 [sender.py:send_request():199] send_request: stop_status
+2022-08-21 03:51:46,024 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_created():217] file/dir created: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/requirements.txt
+2022-08-21 03:51:46,025 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_created():217] file/dir created: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:51:46,025 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_created():217] file/dir created: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/wandb-summary.json
+2022-08-21 03:51:46,026 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_created():217] file/dir created: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/conda-environment.yaml
+2022-08-21 03:51:46,026 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_created():217] file/dir created: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/wandb-metadata.json
+2022-08-21 03:51:46,841 DEBUG   SenderThread:415862 [sender.py:send():185] send: config
+2022-08-21 03:51:46,842 DEBUG   SenderThread:415862 [sender.py:send():185] send: metric
+2022-08-21 03:51:46,842 DEBUG   SenderThread:415862 [sender.py:send():185] send: metric
+2022-08-21 03:51:46,842 WARNING SenderThread:415862 [sender.py:send_metric():837] Seen metric with glob (shouldnt happen)
+2022-08-21 03:51:48,023 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:51:48,166 INFO    Thread-11 :415862 [upload_job.py:push():137] Uploaded file /tmp/tmpndnd6i34wandb/3r6035p9-wandb-metadata.json
+2022-08-21 03:51:50,024 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:51:52,025 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:51:54,027 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:51:56,028 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:51:58,029 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:00,030 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:01,937 DEBUG   HandlerThread:415862 [handler.py:handle_request():126] handle_request: stop_status
+2022-08-21 03:52:01,938 DEBUG   SenderThread:415862 [sender.py:send_request():199] send_request: stop_status
+2022-08-21 03:52:02,031 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:04,033 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:06,034 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:08,035 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:10,036 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:12,040 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:14,043 DEBUG   SenderThread:415862 [sender.py:send():185] send: stats
+2022-08-21 03:52:15,043 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/config.yaml
+2022-08-21 03:52:15,044 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:16,674 DEBUG   SenderThread:415862 [sender.py:send():185] send: metric
+2022-08-21 03:52:16,675 DEBUG   SenderThread:415862 [sender.py:send():185] send: metric
+2022-08-21 03:52:16,675 DEBUG   SenderThread:415862 [sender.py:send():185] send: metric
+2022-08-21 03:52:16,675 DEBUG   SenderThread:415862 [sender.py:send():185] send: history
+2022-08-21 03:52:16,676 DEBUG   SenderThread:415862 [sender.py:send():185] send: summary
+2022-08-21 03:52:16,677 INFO    SenderThread:415862 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-08-21 03:52:17,044 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:17,045 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/wandb-summary.json
+2022-08-21 03:52:17,892 DEBUG   HandlerThread:415862 [handler.py:handle_request():126] handle_request: stop_status
+2022-08-21 03:52:17,893 DEBUG   SenderThread:415862 [sender.py:send_request():199] send_request: stop_status
+2022-08-21 03:52:19,046 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:21,047 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:23,048 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:25,050 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:27,052 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:29,053 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:31,054 INFO    Thread-8  :415862 [dir_watcher.py:_on_file_modified():230] file/dir modified: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:31,655 WARNING MainThread:415862 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2022-08-21 03:52:32,657 WARNING MainThread:415862 [internal.py:is_dead():365] Internal process exiting, parent pid 413952 disappeared
+2022-08-21 03:52:32,657 ERROR   MainThread:415862 [internal.py:wandb_internal():141] Internal process shutdown.
+2022-08-21 03:52:33,417 INFO    WriterThread:415862 [datastore.py:close():281] close: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/run-9g636f4q.wandb
+2022-08-21 03:52:33,417 INFO    SenderThread:415862 [sender.py:finish():985] shutting down sender
+2022-08-21 03:52:33,418 INFO    SenderThread:415862 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-08-21 03:52:33,419 INFO    HandlerThread:415862 [handler.py:finish():683] shutting down handler
+2022-08-21 03:52:34,056 INFO    SenderThread:415862 [dir_watcher.py:finish():313] scan: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files
+2022-08-21 03:52:34,056 INFO    SenderThread:415862 [dir_watcher.py:finish():327] scan save: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log output.log
+2022-08-21 03:52:34,056 INFO    SenderThread:415862 [dir_watcher.py:finish():327] scan save: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/requirements.txt requirements.txt
+2022-08-21 03:52:34,060 INFO    SenderThread:415862 [dir_watcher.py:finish():327] scan save: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/wandb-summary.json wandb-summary.json
+2022-08-21 03:52:34,080 INFO    SenderThread:415862 [dir_watcher.py:finish():327] scan save: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/conda-environment.yaml conda-environment.yaml
+2022-08-21 03:52:34,084 INFO    SenderThread:415862 [dir_watcher.py:finish():327] scan save: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/wandb-metadata.json wandb-metadata.json
+2022-08-21 03:52:34,084 INFO    SenderThread:415862 [dir_watcher.py:finish():327] scan save: /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/config.yaml config.yaml
+2022-08-21 03:52:34,088 INFO    SenderThread:415862 [file_pusher.py:finish():177] shutting down file pusher
+2022-08-21 03:52:34,088 INFO    SenderThread:415862 [file_pusher.py:join():182] waiting for file pusher
+2022-08-21 03:52:36,169 INFO    Thread-15 :415862 [upload_job.py:push():137] Uploaded file /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/conda-environment.yaml
+2022-08-21 03:52:36,202 INFO    Thread-14 :415862 [upload_job.py:push():137] Uploaded file /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/wandb-summary.json
+2022-08-21 03:52:36,210 INFO    Thread-16 :415862 [upload_job.py:push():137] Uploaded file /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/config.yaml
+2022-08-21 03:52:36,246 INFO    Thread-13 :415862 [upload_job.py:push():137] Uploaded file /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/requirements.txt
+2022-08-21 03:52:36,257 INFO    Thread-12 :415862 [upload_job.py:push():137] Uploaded file /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_035141-9g636f4q/files/output.log
+2022-08-21 03:52:36,988 INFO    MainThread:415862 [internal.py:handle_exit():76] Internal process exited

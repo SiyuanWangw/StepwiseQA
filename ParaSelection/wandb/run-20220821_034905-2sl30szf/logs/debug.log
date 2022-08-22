@@ -1,0 +1,10 @@
+2022-08-21 03:49:05,997 INFO    MainThread:411960 [wandb_setup.py:_flush():69] setting env: {}
+2022-08-21 03:49:05,997 INFO    MainThread:411960 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-08-21 03:49:05,998 INFO    MainThread:411960 [wandb_init.py:_log_setup():348] Logging user logs to /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_034905-2sl30szf/logs/debug.log
+2022-08-21 03:49:05,998 INFO    MainThread:411960 [wandb_init.py:_log_setup():349] Logging internal logs to /remote-home/sywang/Projects/DFGN/StepwiseQA/ParaSelection/wandb/run-20220821_034905-2sl30szf/logs/debug-internal.log
+2022-08-21 03:49:05,998 INFO    MainThread:411960 [wandb_init.py:init():381] calling init triggers
+2022-08-21 03:49:05,998 INFO    MainThread:411960 [wandb_init.py:init():388] wandb.init called with sweep_config: {}
+config: {}
+2022-08-21 03:49:05,998 INFO    MainThread:411960 [wandb_init.py:init():430] starting backend
+2022-08-21 03:49:05,999 INFO    MainThread:411960 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-08-21 03:49:06,213 INFO    MainThread:411960 [backend.py:ensure_launched():135] starting backend process...

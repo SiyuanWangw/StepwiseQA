@@ -1,0 +1,315 @@
+wandb_version: 1
+
+_n_gpu:
+  desc: null
+  value: 1
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.2
+    framework: huggingface
+    huggingface_version: 4.17.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    m:
+    - 1: train/global_step
+      6:
+      - 3
+    python_version: 3.6.13
+    start_time: 1661053901
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      3:
+      - 13
+      4: 3.6.13
+      5: 0.12.2
+      6: 4.17.0
+      8:
+      - 5
+adafactor:
+  desc: null
+  value: false
+adam_beta1:
+  desc: null
+  value: 0.9
+adam_beta2:
+  desc: null
+  value: 0.999
+adam_epsilon:
+  desc: null
+  value: 1.0e-08
+bf16:
+  desc: null
+  value: false
+bf16_full_eval:
+  desc: null
+  value: false
+dataloader_drop_last:
+  desc: null
+  value: false
+dataloader_num_workers:
+  desc: null
+  value: 10
+dataloader_pin_memory:
+  desc: null
+  value: true
+ddp_bucket_cap_mb:
+  desc: null
+  value: None
+ddp_find_unused_parameters:
+  desc: null
+  value: None
+debug:
+  desc: null
+  value: '[]'
+deepspeed:
+  desc: null
+  value: ../ds_config.json
+disable_tqdm:
+  desc: null
+  value: false
+do_eval:
+  desc: null
+  value: true
+do_predict:
+  desc: null
+  value: false
+do_train:
+  desc: null
+  value: true
+eval_accumulation_steps:
+  desc: null
+  value: None
+eval_batch_size:
+  desc: null
+  value: 64
+eval_steps:
+  desc: null
+  value: 500
+evaluation_strategy:
+  desc: null
+  value: steps
+fp16:
+  desc: null
+  value: true
+fp16_backend:
+  desc: null
+  value: auto
+fp16_full_eval:
+  desc: null
+  value: false
+fp16_opt_level:
+  desc: null
+  value: O1
+gradient_accumulation_steps:
+  desc: null
+  value: 1
+gradient_checkpointing:
+  desc: null
+  value: false
+greater_is_better:
+  desc: null
+  value: true
+group_by_length:
+  desc: null
+  value: false
+half_precision_backend:
+  desc: null
+  value: auto
+hub_model_id:
+  desc: null
+  value: None
+hub_strategy:
+  desc: null
+  value: every_save
+hub_token:
+  desc: null
+  value: <HUB_TOKEN>
+ignore_data_skip:
+  desc: null
+  value: false
+label_names:
+  desc: null
+  value: '[''starts'', ''ends'']'
+label_smoothing_factor:
+  desc: null
+  value: 0.0
+learning_rate:
+  desc: null
+  value: 3.0e-05
+length_column_name:
+  desc: null
+  value: length
+load_best_model_at_end:
+  desc: null
+  value: true
+local_rank:
+  desc: null
+  value: 0
+log_level:
+  desc: null
+  value: -1
+log_level_replica:
+  desc: null
+  value: -1
+log_on_each_node:
+  desc: null
+  value: true
+logging_dir:
+  desc: null
+  value: ./logs
+logging_first_step:
+  desc: null
+  value: false
+logging_nan_inf_filter:
+  desc: null
+  value: true
+logging_steps:
+  desc: null
+  value: 20
+logging_strategy:
+  desc: null
+  value: steps
+lr_scheduler_type:
+  desc: null
+  value: linear
+max_grad_norm:
+  desc: null
+  value: 2.0
+max_steps:
+  desc: null
+  value: 20932.0
+metric_for_best_model:
+  desc: null
+  value: em
+mp_parameters:
+  desc: null
+  value: ''
+no_cuda:
+  desc: null
+  value: false
+num_train_epochs:
+  desc: null
+  value: 3.0
+optim:
+  desc: null
+  value: adamw_hf
+output_dir:
+  desc: null
+  value: ./logs/08-21-2022/train_selector_longformer-seed42-bsz16-lr3e-05-epoch2.0-maxlen1536-splambda1.0
+overwrite_output_dir:
+  desc: null
+  value: false
+past_index:
+  desc: null
+  value: -1
+per_device_eval_batch_size:
+  desc: null
+  value: 64
+per_device_train_batch_size:
+  desc: null
+  value: 4
+per_gpu_eval_batch_size:
+  desc: null
+  value: None
+per_gpu_train_batch_size:
+  desc: null
+  value: None
+prediction_loss_only:
+  desc: null
+  value: false
+push_to_hub:
+  desc: null
+  value: false
+push_to_hub_model_id:
+  desc: null
+  value: None
+push_to_hub_organization:
+  desc: null
+  value: None
+push_to_hub_token:
+  desc: null
+  value: <PUSH_TO_HUB_TOKEN>
+remove_unused_columns:
+  desc: null
+  value: true
+report_to:
+  desc: null
+  value: '[''tensorboard'', ''wandb'']'
+resume_from_checkpoint:
+  desc: null
+  value: None
+run_name:
+  desc: null
+  value: train_selector_longformer-seed42-bsz16-lr3e-05-epoch2.0-maxlen1536-splambda1.0
+save_on_each_node:
+  desc: null
+  value: false
+save_steps:
+  desc: null
+  value: 500
+save_strategy:
+  desc: null
+  value: steps
+save_total_limit:
+  desc: null
+  value: 15
+seed:
+  desc: null
+  value: 42
+sharded_ddp:
+  desc: null
+  value: '[]'
+skip_memory_metrics:
+  desc: null
+  value: true
+steps_per_print:
+  desc: null
+  value: 20
+tf32:
+  desc: null
+  value: None
+tpu_metrics_debug:
+  desc: null
+  value: false
+tpu_num_cores:
+  desc: null
+  value: None
+train_batch_size:
+  desc: null
+  value: 4
+use_legacy_prediction_loop:
+  desc: null
+  value: false
+wall_clock_breakdown:
+  desc: null
+  value: false
+warmup_ratio:
+  desc: null
+  value: 0.0
+warmup_steps:
+  desc: null
+  value: 2093
+weight_decay:
+  desc: null
+  value: 0.0
+xpu_backend:
+  desc: null
+  value: None
+zero_allow_untested_optimizer:
+  desc: null
+  value: true
+zero_optimization:
+  desc: null
+  value:
+    allgather_bucket_size: 200000000.0
+    allgather_partitions: true
+    contiguous_gradients: true
+    cpu_offload: false
+    overlap_comm: true
+    reduce_bucket_size: 200000000.0
+    reduce_scatter: true
+    stage: 2
