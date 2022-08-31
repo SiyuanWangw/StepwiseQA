@@ -55,4 +55,4 @@ do
         --sp-lambda 5 \
         --init_checkpoint ${MODEL_DIR} \
         --do_predict \
-
+done
