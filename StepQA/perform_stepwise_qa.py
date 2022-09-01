@@ -135,7 +135,7 @@ if __name__ == '__main__':
 
             batch_q_encodes = move_to_ds_cuda(dict(batch_q_encodes), args.device)
             first_sent_offsets = move_to_ds_cuda(first_sent_offsets, args.device)
-            first_sp_scores = model.module.encode_inter_sp(batch_q_encodes, first_sent_offsets).sigmoid()
+            first_sp_scores = model.encode_inter_sp(batch_q_encodes, first_sent_offsets).sigmoid()
             
             first_sp_scores_numpy = first_sp_scores.cpu().contiguous().numpy()
             gene_encoding_pairs = []
@@ -180,7 +180,7 @@ if __name__ == '__main__':
                 return_tensors="pt"
             )
             gene_inputs = move_to_ds_cuda(dict(gene_inputs), args.device)
-            gene_output = gene_model.module.generate(**gene_inputs)
+            gene_output = gene_model.generate(**gene_inputs)
             bridge_ques = gene_tokenizer.batch_decode(gene_output, skip_special_tokens=True)
 
             ##########################################################
@@ -201,7 +201,7 @@ if __name__ == '__main__':
                 ])
 
             batch_simple_encodes = move_to_ds_cuda(dict(batch_simple_encodes), args.device)
-            simple_start, simple_end = simple_model.module.encode_simple(batch_simple_encodes)
+            simple_start, simple_end = simple_model.encode_simple(batch_simple_encodes)
 
             batch_second_hint = list()
             simple_start = simple_start.cpu().contiguous().numpy()
@@ -299,7 +299,7 @@ if __name__ == '__main__':
 
             batch_q_encodes_second = move_to_ds_cuda(dict(batch_q_encodes_second), args.device)
             second_sent_offsets = move_to_ds_cuda(second_sent_offsets, args.device)
-            second_sp_scores = model.module.encode_inter_sp(batch_q_encodes_second, second_sent_offsets).sigmoid()
+            second_sp_scores = model.encode_inter_sp(batch_q_encodes_second, second_sent_offsets).sigmoid()
 
             second_sp_scores_numpy = second_sp_scores.cpu().contiguous().numpy()
             gene_encoding_pairs = []
@@ -345,7 +345,7 @@ if __name__ == '__main__':
                 return_tensors="pt"
             )
             gene_inputs = move_to_ds_cuda(dict(gene_inputs), args.device)
-            gene_output = gene_model.module.generate(**gene_inputs)
+            gene_output = gene_model.generate(**gene_inputs)
             bridge_ques = gene_tokenizer.batch_decode(gene_output, skip_special_tokens=True)
 
             ##########################################################
@@ -366,7 +366,7 @@ if __name__ == '__main__':
                 ])
 
             batch_simple_encodes = move_to_ds_cuda(dict(batch_simple_encodes), args.device)
-            simple_start, simple_end = simple_model.module.encode_simple(batch_simple_encodes)
+            simple_start, simple_end = simple_model.encode_simple(batch_simple_encodes)
 
             batch_third_hint = list()
             simple_start = simple_start.cpu().contiguous().numpy()
@@ -467,7 +467,7 @@ if __name__ == '__main__':
 
             batch_q_encodes_third = move_to_ds_cuda(dict(batch_q_encodes_third), args.device)
             third_sent_offsets = move_to_ds_cuda(third_sent_offsets, args.device)
-            third_sp_scores = model.module.encode_inter_sp(batch_q_encodes_third, third_sent_offsets).sigmoid()
+            third_sp_scores = model.encode_inter_sp(batch_q_encodes_third, third_sent_offsets).sigmoid()
 
             third_sp_scores_numpy = third_sp_scores.cpu().contiguous().numpy()
             gene_encoding_pairs = []
@@ -512,7 +512,7 @@ if __name__ == '__main__':
                 return_tensors="pt"
             )
             gene_inputs = move_to_ds_cuda(dict(gene_inputs), args.device)
-            gene_output = gene_model.module.generate(**gene_inputs)
+            gene_output = gene_model.generate(**gene_inputs)
             bridge_ques = gene_tokenizer.batch_decode(gene_output, skip_special_tokens=True)
 
             ##########################################################
@@ -533,7 +533,7 @@ if __name__ == '__main__':
                 ])
 
             batch_simple_encodes = move_to_ds_cuda(dict(batch_simple_encodes), args.device)
-            simple_start, simple_end = simple_model.module.encode_simple(batch_simple_encodes)
+            simple_start, simple_end = simple_model.encode_simple(batch_simple_encodes)
 
             batch_forth_hint = list()
             simple_start = simple_start.cpu().contiguous().numpy()
@@ -637,7 +637,7 @@ if __name__ == '__main__':
 
             batch_q_encodes_second = move_to_ds_cuda(dict(batch_q_encodes_second), args.device)
             second_sent_offsets = move_to_ds_cuda(second_sent_offsets, args.device)
-            all_start, all_end, second_sp_scores = model.module.encode_last(batch_q_encodes_second, second_sent_offsets)
+            all_start, all_end, second_sp_scores = model.encode_last(batch_q_encodes_second, second_sent_offsets)
             second_sp_scores = second_sp_scores.sigmoid()
 
             second_sp_scores_numpy = second_sp_scores.cpu().contiguous().numpy()
